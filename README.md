@@ -55,6 +55,18 @@ Eсли ваш «Email» не уникален тобразиться соотв
 
 ![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/4.jpg)
 
+Для безопастности пароли пользватель передаются на сервер в зашифрованном виде. 
+
+![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/6.jpg)
+
+Также на страницах Регистрации и Авторизации нельзя сделать скриншот.
+
++ getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE); (строка в коде, которая запрещает пользователю делать скриншот)
+
 После успешной регистрации пользователя произойдет переход на страницу авторизации. Если вы введёте данные не существующего пользователя отобразиться соотвествующее сообщение.
 
 ![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/5.jpg)
+
+После успешной авторизации произойдет переход на страницу пользователей. На странице пользователей отобращаются все пользователи зарегестрированные в системе.
+
+
