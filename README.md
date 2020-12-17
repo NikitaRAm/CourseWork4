@@ -29,4 +29,16 @@ https://github.com/NikitaRAm/CourseWork4/tree/main/Chat-Client
 «SendMessage».
 
 Для безопастности был реализован FingerPrint на главной странице мобильного приложения.
+
 ![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/1.jpg)
+
+Реализлвано это в классе FingerActivity(активность с аутентификацией FingerPrint) с методами: 
++ generateKey (метод генерирующий ключ для шифрования), 
++ cipherInit(метод шифрующий данные), 
++ start_onClick (метод привязанный к событию нажатия на кнопку «Добро пожаловать») 
+и классе FingerprintHandler(класс обрабатывающий результаты сенсора) с методами: 
++ onAuthenticationHelp(метод вызывающийся в случае грязных пальцев, недостаточно сильного зажима пальца), 
++ onAuthenticationFailed(метод вызывающийся в случае считывания отпечатка пальца, но он не верен),
++ onAuthenticationError(метод вызывающийся в случае нескольких неудачных считываний отпечатка пальца),
++ onAuthenticationSucceeded(метод вызывающийся в случае, если все прошло успешно).
+Также в AndroidManifest необходимо было указать разрешение на использование FingerPrint: <uses-permission android:name="android.permission.USE_FINGERPRINT" />
