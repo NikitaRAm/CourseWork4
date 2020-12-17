@@ -71,3 +71,8 @@ Eсли ваш «Email» не уникален тобразиться соотв
 
 ![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/7.jpg)
 
+Для того чтобы отправить сообщение пользователю кликаем на его и переходим на страницу чата. На странице чата можно получать и отпарвлять текстовоые сообщения и изображения. 
+
+![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/8.jpg)
+
+
