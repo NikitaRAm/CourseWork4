@@ -54,3 +54,7 @@ https://github.com/NikitaRAm/CourseWork4/tree/main/Chat-Client
 Eсли ваш «Email» не уникален тобразиться соотвествующее сообщение.
 
 ![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/4.jpg)
+
+После успешной регистрации пользователя произойдет переход на страницу авторизации. Если вы введёте данные не существующего пользователя отобразиться соотвествующее сообщение.
+
+![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/5.jpg)
