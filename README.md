@@ -42,3 +42,19 @@ https://github.com/NikitaRAm/CourseWork4/tree/main/Chat-Client
 + onAuthenticationError(метод вызывающийся в случае нескольких неудачных считываний отпечатка пальца),
 + onAuthenticationSucceeded(метод вызывающийся в случае, если все прошло успешно).
 Также в AndroidManifest необходимо было указать разрешение на использование FingerPrint: <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+После нажатия на кнопку «Entry» откроется страница регистрации приложения. Для работы с приложением, вам необходимо зарегестрировать пользователя.
+
+![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/2.jpg)
+
+После того как вы веберете изображение из галереи кнопка «Register» станет доступна. Если вы не заполнили все поля на экран отобразиться соотвествующее сообщение.
+
+![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/3.jpg)
+
+Eсли ваш «Email» не уникален тобразиться соотвествующее сообщение.
+
+![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/4.jpg)
+
+После успешной регистрации пользователя произойдет переход на страницу авторизации. Если вы введёте данные не существующего пользователя отобразиться соотвествующее сообщение.
+
+![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/5.jpg)
