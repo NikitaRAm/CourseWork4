@@ -20,6 +20,7 @@
 # Мобильное приложение
 https://github.com/NikitaRAm/CourseWork4/tree/main/Chat-Client
 
+Мобильное приложение было реализовано в среде разработки – Android Studio 3.0. Для написания приложения был использован язык программирования Java.
 Для хранения данных будет использована СУБД MySQL. Мобильное приложение отправляет данные серверу, который в свою очередь помещает их в базу данных.
 Мобильное и серверное приложение имеют общие структурные объекты:
 + User – таблица пользователей;
@@ -28,3 +29,4 @@ https://github.com/NikitaRAm/CourseWork4/tree/main/Chat-Client
 «SendMessage».
 
 Для безопастности был реализован FingerPrint на главной странице мобильного приложения.
+![Image alt](https://github.com/NikitaRAm/CourseWork4/blob/main/images/1.jpg)
