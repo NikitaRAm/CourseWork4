@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище RomanovichModelContainer" CdmEntityContainer="RomanovichEntities1">
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="RomanovichModel.Messages">
+        <MappingFragment StoreEntitySet="Messages">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="IdSender" ColumnName="IdSender" />
+          <ScalarProperty Name="IdReceiver" ColumnName="IdReceiver" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="RomanovichModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AddUser" FunctionName="Хранилище RomanovichModel.AddUser" />
+    <FunctionImportMapping FunctionImportName="DeleteUser" FunctionName="Хранилище RomanovichModel.DeleteUser" />
+    <FunctionImportMapping FunctionImportName="SendMessage" FunctionName="Хранилище RomanovichModel.SendMessage" />
+  </EntityContainerMapping>
+</Mapping>
